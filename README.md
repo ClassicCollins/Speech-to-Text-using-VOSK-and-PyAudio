@@ -13,6 +13,7 @@ Install dependencies using:
 
 ```bash
 pip install pyaudio vosk
+```
 ## Setup
 1.	Download VOSK Model: Download a pre-trained VOSK model from the [VOSK website](https://alphacephei.com/vosk/adaptation). Choose a model based on size and language preference.
 2.	Configure Model Path: After downloading, extract the model and provide the path to it in the script:
@@ -23,7 +24,7 @@ pip install pyaudio vosk
 `Example:`
 ```
 python speech_to_text.py
-
+```
 The script will continuously listen to your microphone and print recognized text. Press Ctrl+C to stop the program.
 To customize VOSK for Nigerian English, we train a custom model using our dataset.
 
